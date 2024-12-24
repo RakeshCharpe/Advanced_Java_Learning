@@ -10,7 +10,7 @@ public class Truck {
     Truck(){
 
     }
-    public Truck(int id, String driver_name, int capacity, String engine, String name) {
+    public Truck( String driver_name, int capacity, String engine, String name) {
         this.id = id;
         this.driver_name = driver_name;
         this.capacity = capacity;
